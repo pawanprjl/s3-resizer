@@ -1,0 +1,22 @@
+{
+  "name": "lambda-s3-resizer",
+  "version": "1.0.0",
+  "description": "Serverless s3 image resizing on the fly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.junkirilabs.com:witit/witit-s3-lambda-resizer.git"
+  },
+  "keywords": [
+    "lambda"
+  ],
+  "author": "Pawan Parajuli",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1136.0",
+    "sharp": "^0.30.4"
+  }
+}
